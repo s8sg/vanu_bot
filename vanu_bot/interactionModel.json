@@ -1,0 +1,64 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "vanu bot",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can I say"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "flatter",
+                    "slots": [],
+                    "samples": [
+                        "entertain",
+                        "to entertain",
+                        "entertain me",
+                        "to entertain me",
+                        "flatter me",
+                        "to flatter me",
+                        "flatter",
+                        "to flatter"
+                    ]
+                },
+                {
+                    "name": "remind",
+                    "slots": [],
+                    "samples": [
+                        "remind",
+                        "to remind",
+                        "remind me",
+                        "to remind me"
+                    ]
+                },
+                {
+                    "name": "todo",
+                    "slots": [],
+                    "samples": [
+                        "read todo",
+                        "to read todo",
+                        "speak todo",
+                        "to speak todo",
+                        "tell todo",
+                        "to tell todo"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

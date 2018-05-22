@@ -1,0 +1,14 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  vanu_bot:
+    lang: node8-express
+    handler: ./vanu_bot
+    image: vanu_bot:0.0.1
+    environment:
+       remind_list: ""
+       flatter_list: ""
+       todo_list: ""
+       user: "username"
